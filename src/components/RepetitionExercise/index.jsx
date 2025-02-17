@@ -29,14 +29,16 @@ function Repetition({ exercise, goToScreen }) {
                 <h2 id="repetition_h2">{exercise}</h2>
                 <h3>{exercise === "Running" ? "Laps" : "Repetition"}</h3>
             </div>
-            <div className="counter">
-                <button onClick={decreaseCount}> - </button>
-                <div className="current_number">
-                    {count}
+            <div className="counter_container">
+                <div className="counter">
+                    <button onClick={decreaseCount}> - </button>
+                    <div className="current_number">
+                        {count}
+                    </div>
+                    <button onClick={increaseCount}> + </button>
                 </div>
-                <button onClick={increaseCount}> + </button>
+                <button onClick={resetCount}>Reset</button>
             </div>
-            <button onClick={resetCount}>Reset</button>
         </div>
     )
 

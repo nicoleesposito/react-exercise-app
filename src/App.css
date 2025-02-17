@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.55);
+
 }
 
 .home,
@@ -78,10 +79,8 @@
 .start-button-container {
   display: flex;
   justify-content: center;
-  /* Keeps button centered */
   align-items: center;
   height: 100px;
-  /* Ensure a fixed height */
 }
 
 .home_header {
@@ -100,15 +99,21 @@
   margin: 0px 5px;
 }
 
+
 /************************/
 
 .display {
-  background-color: #3f504b;
+
   margin: 0px 30px 20px 30px;
-  padding: 100px 50px;
-  border-radius: 30px;
-  border: 1px solid #00FFDD;
+  padding: 100px 50px 50px 50px;
   font-size: 50px;
+  font-weight: 500;
+}
+
+.duration_container {
+  background-color: #3f504b;
+  border: 1px solid #00FFDD;
+  border-radius: 30px;
 }
 
 
@@ -126,11 +131,13 @@ h2 {
   justify-content: left;
   display: block;
   margin: 10px 0px 10px -15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 }
 
 .controls button {
   margin: 10px;
   width: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 }
 
 .counter {
@@ -138,6 +145,7 @@ h2 {
   align-items: center;
   justify-content: center;
   font-size: 40px;
+
 }
 
 .counter button {
@@ -148,7 +156,7 @@ h2 {
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  background-color: #3f504b;
+  background-color: #242a29;
   color: white;
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
@@ -157,19 +165,31 @@ h2 {
   padding: 0;
   margin: 0;
   border: 1px solid transparent;
-
 }
 
 .counter button:hover {
   background-color: #353535;
 }
 
+.counter_container button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
 .current_number {
-  background-color: #3f504b;
+  background-color: #566f67;
   margin: 0px 20px 20px 30px;
   padding: 50px 70px;
   border-radius: 30px;
   border: 1px solid #00FFDD;
   font-size: 50px;
+  font-weight: 500;
   width: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.counter_container {
+  background-color: #3f504b;
+  padding: 40px 40px 20px 40px;
+  border-radius: 30px;
+  border: 1px solid #00FFDD;
 }

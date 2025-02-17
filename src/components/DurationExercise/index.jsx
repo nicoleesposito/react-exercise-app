@@ -56,7 +56,7 @@ function Duration({ exercise, goToScreen }) {
                 <h2>{exercise}</h2>
                 <h3>Duration</h3>
             </div>
-            <div className="count_up">
+            <div className="duration_container">
                 <div className="display">{timeFormat()}</div>
                 <div className="controls">
                     <button onClick={start}>Start</button>
